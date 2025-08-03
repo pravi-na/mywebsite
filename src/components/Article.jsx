@@ -1,4 +1,4 @@
-import image from "../assets/news"
+import image from "../assets/news.jpg"
 const Article = () =>{
     return(
         <article className="p-4">
