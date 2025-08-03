@@ -1,8 +1,8 @@
-import React from "react";
+import bgImage from '../assets/tech-image2.jpg';
 
 const Header = () =>{
     return (
-        <header style={{backgroundImage: "url('../assets/tech-image2.jpg')"}} className="h-96 bg-cover bg-center flex items-center justify-center text-white">
+        <header style={{backgroundImage: `url(${bgImage})` }} className="h-96 bg-cover bg-center flex items-center justify-center text-white">
             <h1 className="bg-black/50 text-5xl font-bold p-4 rounded-lg backdrop:blur-sm">Welcome to my website</h1>
         </header>
     )
